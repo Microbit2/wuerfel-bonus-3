@@ -33,7 +33,6 @@ input.onGesture(Gesture.Shake, function () {
             . # # # .
             `)
     }
-    basic.pause(2000)
 })
 input.onButtonPressed(Button.AB, function () {
     zähler = 0
