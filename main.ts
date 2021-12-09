@@ -46,6 +46,7 @@ input.onButtonPressed(Button.B, function () {
 basic.forever(function () {
     if (zähler == 3) {
         for (let index = 0; index < 2; index++) {
+            basic.clearScreen()
             basic.showString("Sieg")
             basic.clearScreen()
             basic.pause(100)
